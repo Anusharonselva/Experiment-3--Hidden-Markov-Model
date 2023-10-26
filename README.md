@@ -13,7 +13,7 @@ Step 8:Calculate the probability of the observed sequence by summing the last ro
 Step 9:Find the most likely sequence of hidden states by selecting the hidden state with the highest probability at each time step based on the alpha matrix.</br>
 
 ##  Program:
-''
+```
 Developed By: S.ANUSHARON
 Reg No: 212222240010
 
@@ -38,7 +38,7 @@ for t in range(len(observed_sequence)):
   else:
     most_likely_sequence.append("Rainy")
 print("The most likely sequence of weather states is:",most_likely_sequence)
-'''
+```
 
 ## Output:
 ![exp-5 appai](https://github.com/Anusharonselva/Experiment-3--Hidden-Markov-Model/assets/119405600/a186fcac-179f-4a87-ab97-7f8e20de9329)
